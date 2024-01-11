@@ -7,7 +7,7 @@ export default function About() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
                 Hi, I'm Nicholas.
-                <br className="hidden lg:inline-block" />I'm passionate about all things software
+                <br className="hidden lg:inline-block" /> I'm passionate about all things software
               </h1>
               <p className="mb-8 leading-relaxed">
                 I'm a second-year computer engineering student who is eager to grow my skills in both software and firmware development. I love to solve problems and hope to make a meaningful impact on the world with my work.

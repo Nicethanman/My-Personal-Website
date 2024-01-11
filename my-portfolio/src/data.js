@@ -27,7 +27,7 @@ export const projects = [
     title: "Personal Website",
     subtitle: "React and TailwindCSS",
     description:
-      "The website you're currently visiting was built using React, TailwindCSS and HTML. The site consists of a Google Maps Embedded API with a dynamic navigation bar.",
+      "This website was built using React, TailwindCSS and HTML. The site consists of a Google Maps Embedded API with a dynamic navigation bar.",
     image: "./project-4.gif",
     link: "https://reactbootcamp.com",
   },
