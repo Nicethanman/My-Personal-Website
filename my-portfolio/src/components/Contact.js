@@ -53,7 +53,7 @@ const [name, setName] = React.useState("");
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=The+University+of+British+Columbia,+Vancouver,+BC,+Canada&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-6 mr-5 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
@@ -67,7 +67,7 @@ const [name, setName] = React.useState("");
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                nicethanchang@gmail.com
+                help.ece.ubc.ca
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -87,48 +87,23 @@ const [name, setName] = React.useState("");
           <p className="leading-relaxed mb-5">
             Please don't hesitate to reach out to me if you have any questions!
           </p>
-          <div className="relative mb-4">
-            <label htmlFor="name" className="leading-7 text-sm text-gray-400">
-              Name
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              onChange={(e) => setName(e.target.value)}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
+          <div class="flex p-3">
+            <img src="gmail_icon.png" width="75" height="auto"></img>
+            <p class="text-indigo-400 mx-8 my-5 text-xl" >nicethanchang@gmail.com</p>
           </div>
-          <div className="relative mb-4">
-            <label htmlFor="email" className="leading-7 text-sm text-gray-400">
-              Email
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              onChange={(e) => setEmail(e.target.value)}
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
+
+          <div class="flex p-3">
+            <img src="linkdin_icon.png" width="75" height="auto"></img>
+            <a class=" text-indigo-400 hover:text-indigo-500 mx-8 my-6 text-xl" href="https://www.linkedin.com/in/nicchang/">My Linkdin</a>
           </div>
-          <div className="relative mb-4">
-            <label
-              htmlFor="message"
-              className="leading-7 text-sm text-gray-400">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              onChange={(e) => setMessage(e.target.value)}              
-              className="w-full bg-gray-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            />
+          <div class="flex p-3">
+            <img src="github_icon.png" width="75" height="auto"></img>
+            <a class="text-indigo-400 hover:text-indigo-500 mx-8 my-5 text-xl" href="https://github.com/Nicethanman">My Github</a>
           </div>
-          <button
-            type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-            Submit
-          </button>
+          <div class="flex p-3">
+            <img src="instagram_icon.png" width="75" height="auto"></img>
+            <a class="text-indigo-400 hover:text-indigo-500 mx-8 my-5 text-xl" href="https://www.instagram.com/nic_chang30/">My Instagram</a>
+          </div>
         </form>
       </div>
     </section>
