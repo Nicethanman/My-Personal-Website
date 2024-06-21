@@ -49,7 +49,7 @@ export default function Projects() {
             develop my experience with fetch apis as well as the django REST framework. The application uses JWT authentication tokens to verify users through
             a login and register page. Additionally, I used the Spotify api to retrieve track data and displayed the results to a frontend built on React.
           </p>
-          <div class="flex justify-center items-center p-6">
+          <div class="flex justify-center items-center p-8">
             <img src="tune_critic.gif" class="rounded-lg"></img>
           </div>
         </div>
