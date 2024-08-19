@@ -16,6 +16,22 @@ export default function Projects() {
           </p>
         </div>
         <div>
+        <h2 class="sm:text-2xl text-3xl font-medium title-font mb-4 underline hover:text-white">
+            <a href="https://github.com/Nicethanman/Swapple">Swapple</a>
+            </h2>
+            <p>
+              This is a mobile app I am currently working on called Swapple. The app allows you to create a profile and upload photos 
+              of your belongings that you want to trade with others. You can then browse other profiles and propose trades between your belongings
+              and their belongings. The app was written in TypeScript with a frontend built with React-Native. The backend makes use of
+              Google Firebase services such as Firebase Authentication, Realtime Database and Storage to provide reliable and secure data storage.
+            </p>
+            <img 
+              alt="Image of App"
+              className="mt-10 mb-10 max-w-full h-auto rounded-2xl"
+              src="../swapple sample image.png">
+            </img>
+        </div>
+        <div>
           <h2 class="sm:text-2xl text-3xl font-medium title-font mb-4 underline hover:text-white">
             <a href="https://github.com/Nicethanman/Coin-Counter">Minimum Change Calculator</a>
             </h2>
@@ -46,7 +62,7 @@ export default function Projects() {
             <a href="https://github.com/Nicethanman/Tune-Critic">Tune Critic</a>
           </h2>
           <p>This is a music review application built with a django database. This was a great project that helped 
-            develop my experience with fetch apis as well as the django REST framework. The application uses JWT authentication tokens to verify users through
+            develop my experience with fetch APIs as well as the Django REST framework. The application uses JWT authentication tokens to verify users through
             a login and register page. Additionally, I used the Spotify api to retrieve track data and displayed the results to a frontend built on React.
           </p>
           <div class="flex justify-center items-center p-8">
