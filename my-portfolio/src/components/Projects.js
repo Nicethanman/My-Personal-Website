@@ -17,6 +17,37 @@ export default function Projects() {
         </div>
         <div>
         <h2 class="sm:text-2xl text-3xl font-medium title-font mb-4 underline hover:text-white">
+            <p>Hole in the Wall</p>
+            </h2>
+            <p>
+              I recently challenged myself to build a game and learn the basics of Unreal Engine over a weekend. The end result was a game called Hole in the Wall, which 
+              was inspired by other endless runner games like Subway Surfer and Temple Run. In the game, you take control of a golden cube and navigate through an endlessly generated
+              level of obstacle walls while trying to beat your own high score.
+            </p>
+            <img 
+              alt="Image of Game"
+              className="mt-10 mb-10 max-w-full h-auto rounded-2xl"
+              src="../holeinthewall.png">
+            </img>
+
+            <p>
+              I began my Unreal journey by following online tutorials and YouTube videos, which helped me create simple game mode and actor classes in C++. 
+              Through this, I learned how to interact with the engine using code and gained an understanding of core concepts such as an actor's lifecycle,
+              the player controller, and camera components. Starting with C++ felt natural since I was already comfortable with the language; however, I also 
+              explored Unreal Engine's Blueprints, which are powerful visual scripting tools that use node-based graphs to program gameplay. I used Blueprints extensively 
+              for the login and signup widgets and to integrate with the Azure PlayFab API for player authentication and statistic tracking.
+              Check out the video below to see some gameplay:
+            </p>
+            <div class="flex justify-center items-center p-8">
+              <iframe width="840" height="472" src="https://www.youtube.com/embed/ti59RiNlibM?si=O0D0pSsuFpobF9ZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+            <p>
+              Working on this game was loads of fun and there are still many things I'd like to add in the future such as a leaderboard system and more obstacle variety.
+              I'm also eager to sink my time into a larger game project with Unreal. Maybe a fighting game? Or a top-down RPG?
+            </p>
+        </div>
+        <div>
+        <h2 class="sm:text-2xl text-3xl font-medium title-font mb-4 mt-10 underline hover:text-white">
             <a href="https://github.com/Nicethanman/Swapple">Swapple</a>
             </h2>
             <p>
@@ -51,10 +82,7 @@ export default function Projects() {
             The user interface was designed using PYQT. Below is a demo video of the calculator in action
           </p>
           <div class="flex justify-center items-center p-8">
-            <video class="rounded-lg border-x-4 border-white" width="600" height="auto" controls>
-              <source src="../coin_calculator_vid.mp4" type="video/mp4"/>
-            Your browser does not support the video tag.
-            </video>
+              <iframe width="840" height="472" src="https://www.youtube.com/embed/OftXvM14kBY?si=XBU21Sz63md3NEH4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
         <div>
